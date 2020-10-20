@@ -1,6 +1,5 @@
 package com.doesnt.work.library
 
-import androidx.databinding.DataBindingComponent
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Test
@@ -14,9 +13,5 @@ class CustomViewTest {
         val view = CustomView(ApplicationProvider.getApplicationContext(), null)
         view.show()
         view.hide()
-    }
-
-    fun shouldCompile(component: DataBindingComponent) {
-
     }
 }
